@@ -8,6 +8,6 @@ function Journal (journalTitle, entry) {
 Journal.prototype.wordCounter = function() {
   var words = this.entry.split(' ');
   return words.length;
-}
+};
 
 exports.Journal = Journal;
